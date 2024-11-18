@@ -112,7 +112,7 @@ my_fruits = ["apple", "pear", "kiwi"]
 # get method
 #print(drinks.get("still"))
 #print(drinks.get("stilleeee"))
-#print(drinks.get("stilllleeeee", "not-found"))
+#print(drinks.get("stilllleeeee", "some string"))
 
 # exercise: 
 
@@ -121,4 +121,38 @@ my_fruits = ["apple", "pear", "kiwi"]
 # print a STRING of books by that author (NOT A LIST).... (use .join)
 # Have a little bit error handling for incorrect names using a method.  
 
+#books = {"author1": ["book1", "book2"], "author2": ["book3", "book4"]}
+
+# solution 1
+
+#x = input("Enter an author name: ")
+
+#print(", ".join(books[x]))
+
+# solution 2
+
+#y = input("Enter an author name: ")
+
+#x = books.get(y, [])
+
+#print(", ".join(x) or "author not found")
+
+# tuples
+# can use min, max, len, zip. 
+
+# slight less memory and slightly faster to run
+# signifies we dont want the data to change!
+
+# rectangle = 10, 5 # or (10 , 5)
+# rectangle[0] = 15
+
+# sets
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+print(set1.union(set2))
+print(set1.intersection(set2))
+print(set1.difference(set2))
+print(set1.symmetric_difference(set2))
 
