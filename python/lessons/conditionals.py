@@ -34,7 +34,7 @@
 # <= less than orequals to
 # != not equals to. 
 
-temp = 30
+#temp = 30
 
 #if temp >= 30:
 #    print("its hot")
@@ -117,7 +117,55 @@ temp = 30
 # error handling for upper/lowercase
 # optional - error handling for input validation. 
 
+# 1st solution
+
+#weight = float(input("Enter weight: ")) 
+#unit = input("Enter K (kgs) or L (lbs): ")
+
+#if unit.upper() == "K":
+#    converted = weight / 0.45
+#    print(f"your converted weight is {converted}")
+#elif unit.upper() == "L":
+#    converted = weight * 0.45
+ #   print(f"your converted weight is {converted}")
+#else:
+#    print("invalid choice - enter L or K !!!!!")
 
 
+# 2nd solution 
+#import sys
 
+#while True:
+  #  try:
+  #      weight = float(input("Enter weight: "))
+ #       break
+ #   except ValueError: 
+ #       print("invalid input, please enter a numeric value!!!")
 
+#while True:
+ #   unit = input("Enter K (kgs) or L (lbs): ").upper()
+ #   if unit == "K":
+ #       converted = weight / 0.45
+ #       print(f"your converted weight is {converted}")
+ #       break
+ #   elif unit == "L":
+#        converted = weight * 0.45
+#        print(f"your converted weight is {converted}")
+#        break
+#    else:
+#        print("invalid choice - enter L or K !!!!!")
+
+#  highest number
+
+#num = 10
+#num1 = 20
+
+#if num > num1:
+#    print(num)
+#else:
+#    print(num1)
+
+# Rewrite without using if statements, or any inbuilt function like max()!!
+
+#result = num * (num > num1) + num1 * (num1 > num)
+#print(result)
