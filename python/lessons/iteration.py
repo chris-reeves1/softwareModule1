@@ -127,10 +127,38 @@ for word in "hello world".split():
 # list comp
 # optional - one line list comp (includes the printing)
 
+# while loop
+
+#counter = 0
+#while counter < 5:
+ #   name = input("enter a name: ")
+ #   print(name + " is cool")
+ #   counter += 1
+
+# for loop
+    
+#for x in range(5):
+    #name = input("name: ")
+    #print(name + " is cool")
+
+# list comp sol 1
+
+names = [input("enter a name") for name in range(5)]
+for name in names:
+    print(f"{name} is cool")
 
 
+# List comps are just for making lists 
+
+# combined list comp
+
+# inner list 
+#[input("enter a name") for x in range(5)]
+# outer list
+#[print(f"{name} is cool") for names in iterable]
 
 
+x = [print(f"{name} is cool") for names in [input("enter a name") for x in range(5)]]
 
-
-
+# list comp side affect
+print(x)
