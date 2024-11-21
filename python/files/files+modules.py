@@ -109,19 +109,19 @@
 #        file.write(newline)
 #        # we dont need to close the file!! 
 
-lab: 
+#lab: 
 
-Instructions
+#Instructions
 
-Your task is to read the data and display the following stats:
+#Your task is to read the data and display the following stats:
 
-1- Total yearly sales by each manufacturer.
+#1- Total yearly sales by each manufacturer.
 
-Optional and only if there is time:
+#Optional and only if there is time:
 
-2- Sum of cars sold in each month for all manufacturers.
+#2- Sum of cars sold in each month for all manufacturers.
 
 
-Tip: Read each line from the files make sure to strip the lines that you read using the strip() function
+#Tip: Read each line from the files make sure to strip the lines that you read using the strip() function
 
-Use the split() function to split a line
+#Use the split() function to split a line
