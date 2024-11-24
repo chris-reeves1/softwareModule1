@@ -1,4 +1,4 @@
-package threeMethods;
+package CMethods;
 
 public class Other {
     public void test(String a){

@@ -1,4 +1,4 @@
-package threeMethods;
+package CMethods;
 
 import java.util.Scanner;
 
