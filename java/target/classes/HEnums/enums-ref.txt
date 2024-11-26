@@ -211,7 +211,7 @@ Example:
     System.out.println(a.equals(c)); // true, content is the same
 
 
-StringBuilder and StringBuffer:
+StringBuilder:
 
 - Strings are immutable in Java, so concatenating strings repeatedly creates new objects, which can be inefficient.
 - StringBuilder is a mutable class that allows efficient string manipulation.
