@@ -342,7 +342,7 @@ Benefits of Composition
 - encapsulate specific behavior in separate classes, keeping the code modular and maintainable.
 - Flexibility, the composed objects can be replaced at runtime.
 - Prevents tight coupling, unlike inheritance.
-- Promotes code reuse in deifferent contexts.
+- Promotes code reuse in different contexts.
 
 STATE
 -----
@@ -603,7 +603,7 @@ Why Use Factory Methods:
 
 Disadvantages of Factory Methods
 - Increased Complexity
-- Debugging Difficulty:
+- Debugging Difficulty
 - Overhead
 
 STATIC FIELDS
@@ -807,7 +807,7 @@ Example (Explicit Reference):
         String name;
 
         public void introduce() {
-            System.out.println("Hi, I'm " + name);
+            System.out.println("Hi, I'm " + this.name);
         }
 
         public void greet() {
@@ -965,7 +965,7 @@ Classes:
 Common Mistakes in Access Control:
 - Excessive Public fields/methods
 - No Access Control
-- Lack of Encapsulation:
+- Lack of Encapsulation
 - Improper use of protected
 
 Diffs in c#:
